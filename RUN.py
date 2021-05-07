@@ -8,8 +8,8 @@ import keras.backend.tensorflow_backend as backend
 from keras.models import load_model
 from tutorial5_code import CarEnv, MEMORY_FRACTION
 
-
-MODEL_PATH = 'models/Xception__-118.00max_-179.10avg_-250.00min__1566603992.model'
+# Model name obtained after training the RLCAR.py stored in PythonAPI/exmaples/model
+MODEL_PATH = 'models/Xception__-118.00max_-179.10avg_-250.00min__1566603992.model' 
 
 if __name__ == '__main__':
 
