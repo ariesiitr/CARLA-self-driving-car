@@ -44,7 +44,7 @@ MODEL_NAME = "Xception"
 MEMORY_FRACTION = 0.4
 MIN_REWARD = -200
 
-EPISODES = 100
+EPISODES = 50
 
 DISCOUNT = 0.99
 epsilon = 1
@@ -164,6 +164,9 @@ class CarEnv:
             reward = -200
         elif kmh < 50:
             done = False
+            reward = -1
+        elif kmh >100:
+            done=False
             reward = -1
         else:
             done = False
