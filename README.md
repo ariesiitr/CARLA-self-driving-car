@@ -20,4 +20,13 @@
       - NOW RUN INITIALLY RUN `$python RLCAR.py` TO TRAIN THE MODEL.
       - ONCE THE TRAINING IS DONE, GO TO MODELS FOLDER IN WindowsNoEditor/PythonAPI/examples AND COPY THE MODEL NAME AND PASTE IT IN THE MODEL NAME VARIABLE IN RUN.py.
       - ONCE THIS IS DONE, TYPE `$python RUN.py` AND NOW SEE THE MODEL RUNNING IN CARLA.
+
+## EXPLANATION OF FILES 
+   ### RUN.py
+   
+   ### RLCAR.py
+## LINK TO SPEC DOC:
+   https://docs.google.com/document/d/19vvDGYB4etn006hT88-pABDmdyVu4k-Kn6_LzIlbo3I/edit?usp=sharing
+   
+   
      
